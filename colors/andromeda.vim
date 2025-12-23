@@ -116,3 +116,48 @@ hi! ALEInfoSign        guifg=#6DCAE8 guibg=#303030 gui=NONE ctermfg=81 ctermbg=2
 hi! ALEVirtualTextInfo guifg=#6DCAE8 guibg=NONE    gui=NONE ctermfg=81
 hi! ALEStyleErrorSign        guifg=#FB617E guibg=#303030 gui=NONE ctermfg=204 ctermbg=236
 hi! ALEVirtualTextStyleError guifg=#FB617E guibg=NONE    gui=NONE ctermfg=204
+
+let g:lightline#colorscheme#andromeda#palette = {
+\ 'normal': {
+\   'left': [
+\     [ '#303030', '#A9DC76', 236, 149 ],
+\     [ '#E6D08C', '#303030', 222, 236 ],
+\   ],
+\   'middle': [
+\     [ '#E6D08C', '#303030', 222, 236 ],
+\   ],
+\   'right': [
+\     [ '#303030', '#6DCAE8', 236, 110 ],
+\     [ '#E6D08C', '#303030', 222, 236 ],
+\   ],
+\ },
+\ 'insert': {
+\   'left': [
+\     [ '#303030', '#6DCAE8', 236, 110 ],
+\     [ '#E6D08C', '#303030', 222, 236 ],
+\   ],
+\ },
+\ 'visual': {
+\   'left': [
+\     [ '#303030', '#FB617E', 236, 204 ],
+\     [ '#E6D08C', '#303030', 222, 236 ],
+\   ],
+\ },
+\ 'replace': {
+\   'left': [
+\     [ '#303030', '#FB617E', 236, 204 ],
+\     [ '#E6D08C', '#303030', 222, 236 ],
+\   ],
+\ },
+\ 'inactive': {
+\   'left': [
+\     [ '#7E8294', '#303030', 245, 236 ],
+\   ],
+\   'middle': [
+\     [ '#7E8294', '#303030', 245, 236 ],
+\   ],
+\   'right': [
+\     [ '#7E8294', '#303030', 245, 236 ],
+\   ],
+\ },
+\}
