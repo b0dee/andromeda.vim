@@ -161,3 +161,16 @@ let g:lightline#colorscheme#andromeda#palette = {
 \   ],
 \ },
 \}
+
+hi! link CmpPmenu        Pmenu
+hi! link CmpPmenuSel     PmenuSel
+hi! link CmpItemAbbr     Pmenu
+hi! link CmpItemAbbrMatch PmenuSel
+hi! link CmpItemAbbrMatchFuzzy PmenuSel
+hi! link CmpItemKind     Pmenu
+hi! link CmpItemMenu     Comment
+hi! link NormalFloat     Pmenu
+
+hi! FloatBorder guifg=#5f5f5f guibg=#303030 blend=0
+hi! link CmpPmenuBorder FloatBorder
+hi! link CmpDocBorder   FloatBorder
