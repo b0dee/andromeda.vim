@@ -43,7 +43,7 @@ hi StatusLine    guifg=#E1E3E4 guibg=#393E53 gui=NONE ctermfg=252 ctermbg=237
 hi StatusLineNC  guifg=#7E8294 guibg=#333648 gui=NONE ctermfg=245 ctermbg=236
 
 hi Pmenu         guifg=#E1E3E4 guibg=#303030 gui=NONE ctermfg=252 ctermbg=236
-hi PmenuSel      guifg=#303030 guibg=#77D5F0 gui=bold ctermfg=236 ctermbg=81
+hi PmenuSel      guifg=#E1E3E4 guibg=#555555 gui=bold ctermfg=236 ctermbg=81
 
 hi NonText       guifg=#333648 guibg=#303030 gui=NONE ctermfg=236 ctermbg=236
 hi Whitespace    guifg=#333648 guibg=#303030 gui=NONE ctermfg=236 ctermbg=236
